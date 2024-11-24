@@ -6,16 +6,15 @@ WHERE cust_name = "Bob Crow";
 SELECT DISTINCT cust_name
 FROM restBill
 WHERE cust_name LIKE "% Smith"
-ORDER BY cust_name ASC;
+ORDER BY cust_name DESC;
 --3
 SELECT DISTINCT cust_name
 FROM restBill
 WHERE cust_name LIKE "% C%";
 --4
-SELECT
-
-
-
+SELECT first_name, surname
+FROM restStaff
+WHERE headwaiter IS NOT NULL; 
 --5
 SELECT *
 FROM restBill
