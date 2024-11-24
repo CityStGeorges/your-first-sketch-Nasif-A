@@ -16,7 +16,7 @@ SELECT first_name, surname
 FROM restStaff
 WHERE headwaiter IS NOT NULL; 
 --5
-SELECT *
+SELECT * 
 FROM restBill
 WHERE bill_date BETWEEN 010216 AND 290216;
 --6
